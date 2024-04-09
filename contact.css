@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    background-color: #101010
+}
+.header{
+    width: 100%;
+    height: 95px;
+    display: block;
+    background-color: #101010;
+    border-style: solid;
+    
+}
+.inner-header{
+    width: 80%;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+    background-color: #101010;  
+}
+.logo{
+    height: 100%;
+    display: table;
+    float: left;
+}
+.h1{
+    color: white;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: "Dancing Script", cursive;
+    font-size: 60px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.nav-bar{
+    float: right;
+    height: 100%; 
+    background-color: transparent;
+}
+.nav-bar a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 00px 20px 100px;  
+    background-color: transparent;
+}
+.nav-bar li{
+    display: table-cell;
+    vertical-align: middle;
+    padding-top: 30px;
+    color: white;
+    font-style: italic;
+    font-size: 20px;
+    background-color: transparent;
+   
+}
+.contact-container{
+   height: 100vh;
+   margin-top: 40px;
+   margin-left: 20px;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+}
+.contact-left{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+.contact-left-title h2{
+    font-weight: 600;
+    color: white;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+.contact-left-title hr{
+    border: none;
+    width: 120px;
+    height: 5px;
+    background-color: rgb(240, 13, 13);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.contact-inputs{
+    width: 400px;
+    height: 50px;
+    border: solid;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    color: #735e5e;
+    border-radius: 50px;
+
+}
+.contact-left textarea{
+    height: 200px;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+.contact-inputs:focus{
+    border: 2px solid rgb(199, 143, 143);
+}
+.contact-inputs ::placeholder{
+    color: #3a2727;
+}
+.contact-left button{
+display: flex;
+align-items: center;
+padding: 15px 30px;
+font-size: 16px;
+color: #8d7f7f;
+gap: 10px;
+
+}
+.body{
+    font-family: 'Courier New', Courier, monospace;
+    
+}

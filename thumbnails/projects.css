@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    background-color: #101010
+}
+.header{
+    width: 100%;
+    height: 95px;
+    display: block;
+    background-color: #101010;
+    border-style: solid;
+    
+}
+.inner-header{
+    width: 80%;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+    background-color: #101010;  
+}
+.logo{
+    height: 100%;
+    display: table;
+    float: left;
+}
+.h1{
+    color: white;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: "Dancing Script", cursive;
+    font-size: 60px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.nav-bar{
+    float: right;
+    height: 100%; 
+    background-color: transparent;
+}
+.nav-bar a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 00px 20px 100px;  
+    background-color: transparent;
+}
+.nav-bar li{
+    display: table-cell;
+    vertical-align: middle;
+    padding-top: 30px;
+    color: white;
+    font-style: italic;
+    font-size: 20px;
+    background-color: transparent;
+   
+}
+.container-b{
+    width: 98%;
+    height: 400px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-style: solid;
+   background-image:  url('thumbnails/loal b+w.jpg');
+    background-size: 1350px;
+}
+.main{
+    width: 420px;
+    height: 120px;
+    display: block;
+    color: white;
+    font-size: 28px;
+    margin-top: 250px;
+    margin-left: 60px;
+   
+    background-color: transparent;
+}
+.main span{
+    color: rgb(116, 108, 108);
+    font-size: 20px;
+    font-style: italic;
+    background-color: transparent;
+}
+.fotter{
+    width: 100%;
+    height: 95px;
+    display: block;
+    background-color: #101010;
+    border-style: solid;
+    
+    
+}
+.inner-fotter{
+    width: 400px;
+    height: 100px;
+    display: block;
+    margin: 0 auto;   
+}
+.nav-box{
+    height: 100%; 
+    background-color: transparent;
+}
+.nav-box a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 00px 20px 10px;  
+    background-color: transparent;
+}
+.nav-box li{
+    display: table-cell;
+    vertical-align: middle;
+    padding-top: 30px;
+    color: white;
+    font-style: italic;
+    font-size: 20px;
+    background-color: transparent;
+   
+}
+.pic1{
+    height: 40px;
+    width: 60px;
+    border-radius: 40px;
+
+    
+}
